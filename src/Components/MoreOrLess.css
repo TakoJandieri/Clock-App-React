@@ -1,0 +1,167 @@
+.moreLessContainer {
+  margin-top: 0px;
+  font-family: "Inter";
+}
+
+.arrowDownImg {
+  margin-right: 8px;
+  rotate: calc(180deg);
+  width: 32px;
+  filter: invert(0%) sepia(2%) saturate(100%) hue-rotate(7deg) brightness(0%)
+    contrast(103%);
+}
+
+.arrowDownImg:hover {
+  filter: invert(76%) sepia(0%) saturate(1283%) hue-rotate(208deg)
+    brightness(81%) contrast(89%);
+}
+
+.arrowUpImg {
+  width: 32px;
+}
+
+.moreLessButton:hover img {
+  filter: invert(76%) sepia(0%) saturate(1283%) hue-rotate(208deg)
+    brightness(81%) contrast(89%);
+}
+
+.dropContainer {
+  flex-direction: column;
+  width: calc(100% + 51px);
+  color: aliceblue;
+  margin-top: 40px;
+  margin-bottom: -40px;
+  margin-left: -26px;
+  margin-right: -25px;
+  box-sizing: border-box;
+  padding: 48px 26px;
+}
+
+.dropContainer > div > p {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+
+.dropContainer > div > p > span {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24.2px;
+  text-transform: capitalize;
+  float: right;
+}
+
+.dayDropContainer {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.dayDropContainer > div > p {
+  color: rgba(48, 48, 48, 1);
+}
+
+.nightDropContainer {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.moreLessButton {
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 3.75px;
+  display: flex;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 115px;
+  height: 39px;
+  padding-left: 17px;
+  background-color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .dropContainer {
+    flex-direction: row;
+    width: calc(100% + 195px);
+    height: calc(43% + 64px);
+    padding: 119px 166px 119px 64px;
+    margin-bottom: -64px;
+    margin-left: -64px;
+    margin-right: -131px;
+    gap: 112px;
+    text-align: left;
+  }
+
+  .dropContainer > div > p > span {
+    font-size: 40px;
+    line-height: 48.41px;
+    float: left;
+  }
+
+  .dropContainer > div > p {
+    font-size: 13px;
+
+    letter-spacing: 2.6px;
+  }
+  .dropContainer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .moreLessButton {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 5px;
+
+    cursor: pointer;
+    border-radius: 30px;
+    width: 146px;
+    height: 56px;
+  }
+
+  .arrowDownImg {
+    width: 40px;
+  }
+
+  .arrowUpImg {
+    width: 40px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .dropContainer {
+    width: calc(100% + 330px);
+    height: calc(50% + 98px);
+    padding: 74px 431px 74px 165px;
+    margin-left: -165px;
+    margin-right: -165px;
+    margin-bottom: -98px;
+    margin-top: 110px;
+  }
+
+  .dropContainer > div > p {
+    font-size: 15px;
+
+    letter-spacing: 3px;
+  }
+
+  .dropContainer > div > p > span {
+    font-size: 56px;
+    line-height: 67.77px;
+  }
+
+  .divideLine {
+    width: 1px;
+    height: 252px;
+    background-color: white;
+    margin-right: 60px;
+    margin-left: 75px;
+  }
+}

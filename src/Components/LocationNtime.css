@@ -1,0 +1,93 @@
+.locationContainer {
+  font-family: "Inter";
+  color: #fff;
+  width: 100%;
+  height: 100%;
+}
+
+.time {
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: -2.5px;
+  margin: 0;
+}
+
+.timeNZone {
+  display: flex;
+  align-items: flex-end;
+  gap: 13px;
+}
+
+.timeZone {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+
+.countryCity {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 3px;
+  margin-top: 17px;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 700px) {
+  .time {
+    font-size: 175px;
+    line-height: 175px;
+    letter-spacing: -4.38px;
+  }
+
+  .timeZone {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .countryCity {
+    font-size: 18px;
+
+    letter-spacing: 3.6px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .forDesktopOnly {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    width: 100%;
+  }
+
+  .time {
+    font-size: 200px;
+    line-height: 200px;
+    letter-spacing: -5px;
+  }
+
+  .timeZone {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .countryCity {
+    font-size: 24px;
+    display: block;
+    letter-spacing: 4.8px;
+    margin-bottom: 0;
+  }
+
+  .countryCity > p {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .timeNZone {
+    gap: 1px;
+  }
+}

@@ -1,0 +1,140 @@
+.App {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  padding: 32px 25px 40px 26px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.dayBackPhoto {
+  background-image: url(./assets/mobile/bg-image-daytime.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+  filter: brightness(80%);
+}
+
+.nightBackPhoto {
+  background-image: url(./assets/mobile/bg-image-nighttime.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+}
+
+.headContainer {
+  display: flex;
+  flex-direction: column;
+  height: 97px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.closeHeadContainer {
+  height: 0px;
+  display: none;
+}
+
+.text {
+  display: flex;
+  justify-items: flex-start;
+  gap: 17px;
+}
+
+.authorP {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  color: #fff;
+}
+
+.footerContainer {
+  width: 100%;
+  text-transform: uppercase;
+  font-family: "Inter";
+  display: flex;
+  gap: 17px;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  margin-top: 67px;
+}
+
+.innerFoot {
+  display: flex;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+@media (min-width: 700px) {
+  .App {
+    padding: 80px 131px 64px 64px;
+  }
+  .dayBackPhoto {
+    background-image: url(./assets/tablet/bg-image-daytime.jpg);
+  }
+
+  .nightBackPhoto {
+    background-image: url(./assets/tablet/bg-image-nighttime.jpg);
+  }
+  .headContainer {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .authorP {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .footerContainer {
+    justify-items: flex-end;
+  }
+
+  .innerFoot {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 3.6px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .App {
+    padding: 56px 162px 98px 165px;
+    align-items: flex-start;
+  }
+  .dayBackPhoto {
+    background-image: url(./assets/desktop/bg-image-daytime.jpg);
+  }
+
+  .nightBackPhoto {
+    background-image: url(./assets/desktop/bg-image-nighttime.jpg);
+  }
+
+  .text {
+    width: 560px;
+  }
+
+  .text > div > img {
+    margin-top: 10px;
+  }
+
+  .innerFoot {
+    font-size: 20px;
+
+    letter-spacing: 4px;
+  }
+}
