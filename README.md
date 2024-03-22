@@ -1,4 +1,4 @@
-[# Clock-App
+# Clock-App
 
 ### Links
 
@@ -21,4 +21,3 @@
 
 - GitHub - [TakoJandieri](https://github.com/TakoJandieri)
 - LinkedIn - [@tako-jandieri](https://www.linkedin.com/in/tako-jandieri/)
-  ](../../..)
