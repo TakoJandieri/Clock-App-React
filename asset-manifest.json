@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Clock-App-React/static/css/main.221ad9b4.css",
+    "main.js": "/Clock-App-React/static/js/main.e59a5883.js",
+    "static/media/bg-image-nighttime.jpg": "/Clock-App-React/static/media/bg-image-nighttime.2bf322573178f8d3d588.jpg",
+    "static/media/bg-image-daytime.jpg": "/Clock-App-React/static/media/bg-image-daytime.2057675aad8d4e0bd146.jpg",
+    "static/media/icon-sun.svg": "/Clock-App-React/static/media/icon-sun.cb7a2aac3be7bf88b4cf17bd97d62fd2.svg",
+    "index.html": "/Clock-App-React/index.html",
+    "static/media/icon-arrow-up.svg": "/Clock-App-React/static/media/icon-arrow-up.bb3e6773ea6ece2fc345775ffd9b0d0c.svg",
+    "static/media/icon-refresh.svg": "/Clock-App-React/static/media/icon-refresh.dd4042c8a2d8493ec9ddb2b52692ad11.svg",
+    "static/media/icon-moon.svg": "/Clock-App-React/static/media/icon-moon.83b9f0dbe53bfaab2e1c6dc344545e9c.svg",
+    "main.221ad9b4.css.map": "/Clock-App-React/static/css/main.221ad9b4.css.map",
+    "main.e59a5883.js.map": "/Clock-App-React/static/js/main.e59a5883.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.221ad9b4.css",
+    "static/js/main.e59a5883.js"
+  ]
+}
